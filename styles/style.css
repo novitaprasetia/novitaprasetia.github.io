@@ -1,0 +1,495 @@
+/* 
+
+	style.css
+	
+	Colours
+	=======
+	
+	Dark Grey:		#2f343b
+	Light Grey:		#5e636a
+	White:			#ffffff
+	Light Green:	#8dc63f
+	Dark Green:		#75a732
+	
+
+*/
+
+
+/* ---------------------------
+	General Styles
+   --------------------------- */
+html {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+body{
+	background:#2f343b;
+	font-family:"Lato",sans-serif;
+}
+
+
+/* ---------------------------
+	Typography
+   --------------------------- */
+
+h1, h2, h3{
+	font-family: "Arvo";
+	color:#fff;
+}
+
+h1 {
+	margin-top: 10px;
+	width:440px;
+	font-size: 42px;
+	font-weight: bold;
+	line-height: 40px;
+}
+
+
+h2{
+	font-size: 30px;
+	font-weight: 300;
+}
+
+
+h3{
+	font-size: 20px;
+	font-weight: 300;
+}
+
+h4{
+	color: #fff;
+	font-family: "Lato";
+	font-size: 15px;
+	font-weight: 600;
+}
+
+h5{
+	color: #fff;
+	font-family: "Lato";
+	font-size: 14px;
+	font-weight: 300;
+}
+
+p{
+	color: #fff;
+	font-family: "Lato";
+	font-size: 18px;
+	font-weight: 300;
+
+}
+
+.column-four p{
+	font-size: 16px;
+}
+/* ---------------------------
+	Layout
+   --------------------------- */
+
+.container {
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.full-width{
+	background: #fff;
+	height:116px;
+}
+/* ---------------------------
+	Header
+   --------------------------- */
+#logo {
+	display: block;
+	padding: 17px 0 16px 0px;
+	float: left;
+}   
+     
+#social{
+	
+	float: right;
+	
+}
+
+#social p{
+	font-size: 16px;
+	margin-top: 35px;
+	margin-right: 15px;
+	float:left;	
+}
+
+#social ul{
+	padding:0;
+	margin:0;
+	float:right;
+}
+
+#social ul li{
+	float: left;
+	list-style: none;
+	margin-top: 33px;
+}
+
+#social a{
+	margin-right:10px;
+}
+
+#social a:hover{
+	position:relative;
+	top:1px;
+}
+
+
+#hero{
+	background: url("../images/stationary_grey.jpg") no-repeat center center; 
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+	width:100%;
+	height: 464px;
+	margin-top: 10px;
+}
+
+#hero_article h1{
+	padding-top: 30px;
+}
+#hero_article p{
+	font-size: 16px;
+	font-weight: 700;
+	width:300px;
+	line-height: 22px;
+}
+
+#hero_article a{
+	float:left;
+	margin-left: 0;
+	margin-top: 10px;
+}
+
+
+.column-two{
+	width:450px;
+	float:left;
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+
+.last{
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+.column-two p{
+	line-height:27px;
+}
+
+.column-two ul{
+	margin-right:20px;
+}
+.column-two ul li{
+	color: #fff;
+	font-family: "Lato";
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 24px;
+}
+
+/* ---------------------------
+	Companies
+   --------------------------- */
+#companies{
+	clear:both;
+}   
+
+#companies h2{
+	color:#2f343b;
+	margin-left:0px;
+	margin-top:38px;
+	float:left;	
+}
+
+#companies ul{
+	padding:0;
+	margin:0;
+	float:right;
+}
+
+#companies ul li{
+	float: left;
+	list-style: none;
+	margin-top: 33px;
+}
+
+
+#companies a{
+	margin-right: 30px;
+}
+   
+.slim_logo{
+	margin-top: 15px;
+}
+
+/* ---------------------------
+	Feature
+   --------------------------- */
+
+#feature-column{
+	margin-top:60px;
+}   
+
+#lead-in p{
+	line-height:0;
+}
+
+.column-four{
+	padding-top:60px;
+	float:left;
+	margin-right: 20px;
+}
+
+.last{
+	margin-right:0px;
+}
+
+
+.feature-image{
+	margin:0 35px;
+}
+
+	
+.column-four h3{
+	text-align: center;
+}
+
+.column-four p{
+	line-height: 24px;
+	text-align: center;
+	width:210px;
+}
+
+/* ---------------------------
+	Testimonial
+   --------------------------- */
+#testimonial{
+	clear: both;
+	padding-top: 40px;
+}
+
+.benefit-quote-column{
+	width: 431px;
+	height: 173px;
+	background-color: #e9ebed;
+	float:left;
+	margin-top:30px;
+	margin-right:77px;
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius:5px 5px 0 0;
+}
+
+.second{
+	float:right;
+	margin-right:0;
+	
+
+}
+
+.benefit{
+	width:375px;
+	margin: 30px 0 0 50px;
+}
+
+.benefit_image{
+	padding:0;
+	margin:0;
+	float:left;
+}
+
+.benefit h3{
+	color: #2f333a;
+	float:left;
+	margin-top: 0px;
+	margin-left: 10px;
+	
+}
+.benefit p{
+	clear:both;
+	line-height: 26px;
+	width:330px;
+	color: #2f333a;
+
+}
+
+.quote{
+	clear: both;
+	margin-top: -10px;
+	width: 432px;
+	background-color: #5e636a;
+	border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+
+}
+
+.quote p{
+	font-size: 20px;
+	width:330px;
+	line-height: 30px;
+	margin-top: 30px;
+	margin-left: 50px;
+	padding: 15px 0px 20px 0px;
+}
+
+#people_left{
+	width:375px;
+	margin-left: 50px;
+	margin-top: 20px;
+	float:left
+}
+
+#triangle_chat_left{
+	float:left;
+	margin-top: -40px;
+	margin-left:8px;
+	
+}
+
+#people_left h4 {
+	float:right;
+	margin-right: 220px;
+}
+
+
+#people_left h5{
+	float:right;
+	margin-right: 50px;
+	margin-top: -50px;
+	margin-bottom: 0;
+	line-height:0;
+}
+
+#people_right{
+	width:375px;
+	margin-left: 50px;
+	margin-top: 20px;
+	float:left
+}
+
+#triangle_chat_right{
+	float:left;
+	margin-top: -40px;
+	margin-left:285px;
+	
+}
+#people_icon{
+	float:right;
+	margin-right:37px;
+}
+#people_right h4 {
+	float:right;
+	margin-right: 10px;
+}
+
+
+#people_right h5{
+	float:right;
+	margin-right: 107px;
+	margin-top: -8px;
+	margin-bottom: 0;
+	line-height:0;
+}
+
+/* ---------------------------
+	Footer
+   --------------------------- */
+
+
+#closing-cta{
+	clear:both;
+	margin-top: 330px;
+	background: #fff;
+	max-width: 1280px;
+	height:116px;
+}
+
+#closing-cta h2{
+	margin-left:100px;
+	margin-top:35px;
+	float:left;
+	color: #2f333a;
+}
+
+#closing-cta a{
+	margin-top:-65px;
+	margin-left: 100px;
+	margin-right:120px;
+	
+
+}
+
+footer{
+	clear:both;
+}
+
+footer h5{
+	text-align: center;
+	margin-right:0;
+}
+
+/* ---------------------------
+	Button Style
+   --------------------------- */
+
+
+.button{
+	margin-top:-65px;
+	margin-left: 100px;
+	margin-right:120px;
+	color:#fff;
+	padding: 10px 0px 10px 0px;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	float:right;
+	width: 200px;
+	background-color: #8dc63f;
+	border-radius: 5px;
+	-moz-border-radius:5px;
+}
+
+.button:hover{
+	background-color: #96d244;
+	-webkit-transition: 0.15s;
+	-moz-transition: 0.15s;
+	-o-transition: 0.15s;
+	transition:0.15s;
+	-webkit-backface-visibility: hidden;
+}
+
+
+.button:active{
+	background-color: #80b43a;
+	-webkit-transition: 0.15s;
+	-moz-transition: 0.15s;
+	-o-transition: 0.15s;
+	transition:0.15s;
+	-webkit-backface-visibility: hidden;
+}
+
+/* ---------------------------
+	Global Style
+   --------------------------- */
+
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	zoom: 1; /* For IE6/7 (trigger hasLayout) */
+}
